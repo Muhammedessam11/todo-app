@@ -32,7 +32,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        docker run -d -p 3000:3000 --name todo-app mohamedessam1911/todo-app:latest
+                        docker run -d -p 3002:3002 --name todo-app mohamedessam1911/todo-app:latest
                     '''
                 }
             }
